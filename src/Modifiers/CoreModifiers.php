@@ -2909,6 +2909,7 @@ class CoreModifiers extends Modifier
             }
         }
 
+
         if (Str::contains($url, 'youtube.com')) {
             $url = str_replace('youtube.com', 'youtube-nocookie.com', $url);
         }
