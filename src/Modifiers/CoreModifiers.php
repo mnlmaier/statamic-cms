@@ -2910,7 +2910,7 @@ class CoreModifiers extends Modifier
         }
 
         if (Str::contains($url, 'youtube.com/shorts/')) {
-            $url = str_replace('youtube.com/shorts/', 'youtube.com/embed/', $url);
+            $url = str_replace('shorts/', 'embed/', $url);
         }
 
         if (Str::contains($url, 'youtube.com')) {
